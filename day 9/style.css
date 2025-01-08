@@ -89,7 +89,7 @@ button {
     background-color: #DA722C;
     color: #fff;
     padding: 16px 32px;
-    border-radius: 16px;
+    border-radius: 24px;
     border-style: none;
     font-size: 18px;
     font-weight: 700;
@@ -98,7 +98,7 @@ button {
 }
 
 .hero-button span{
-    padding-right: 24px;
+    padding-right: 8px;
 }
 
 .hero-container{
@@ -127,6 +127,53 @@ button {
     font-weight: 400;
     line-height: 32px;
     color: #fff;
+}
+
+.hero-float-items{
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 8px 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.hero-float-items.one{
+  top: 120px;
+  right: 800px;
+}
+
+.hero-float-items.two{
+  top: 350px;
+  right: 900px;
+}
+
+
+.hero-content-wrap{
+  position: relative;
+}
+
+.float-big{
+  margin: 0px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #023047;
+  
+}
+
+.float-big img{
+  color: #FFCE31;
+  height: 30px;
+}
+
+.float-p{
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 /* Testimonials */
